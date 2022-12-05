@@ -1,10 +1,12 @@
 {
   "name": "dollar-to-cents",
+  "type": "module",
   "version": "1.0.0",
   "description": "Converts dollar amount to number of specific coins.",
-  "dev": "nodemon index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
   },
   "repository": {
     "type": "git",
